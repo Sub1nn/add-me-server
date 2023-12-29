@@ -1,6 +1,6 @@
 import express from 'express';
 const app = express();
-const port = process.env.PORT;
+const port = 8000;
 
 app.get('/add', (req, res) => {
     const a = +req.query.a
